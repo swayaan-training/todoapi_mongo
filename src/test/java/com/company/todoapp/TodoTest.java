@@ -63,11 +63,17 @@ public class TodoTest {
         Date date = new Date();
         Todo todo1 = new Todo("1", "Title", "Description", true, date);
         Todo todo2 = new Todo("1", "Title", "Description", true, date);
-        Todo todo3 = new Todo("2", "Different Title", "Different Description", false, date);
+        Todo todo3 = new Todo("2", "Title", "Description", true, date);
 
+        // Testing equality of the same object
+        assertTrue(todo1.equals(todo1));
+        // Testing equality of two different objects with the same values
         assertTrue(todo1.equals(todo2));
+        // Testing inequality of two objects with different values
         assertFalse(todo1.equals(todo3));
+        // Testing inequality with null
         assertFalse(todo1.equals(null));
+        // Testing inequality with an object of a different type
         assertFalse(todo1.equals(new Object()));
     }
 
@@ -76,6 +82,7 @@ public class TodoTest {
         Date date = new Date();
         Todo todo = new Todo("1", "Title", "Description", true, date);
 
+        // Testing the toString method
         String expectedToString = "Todo [id=1, title=Title, description=Description, status=true, targetDate=" + date + "]";
         assertEquals(expectedToString, todo.toString());
     }

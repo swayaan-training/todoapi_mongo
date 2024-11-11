@@ -1,7 +1,6 @@
 package com.company.todoapp;
 
 import java.util.Date;
-
 import com.company.todoapp.models.Todo;
 import com.company.todoapp.dtos.TodoResponseDTO;
 

@@ -69,33 +69,6 @@ public class TodoControllerTests {
         assertEquals(dtoList, result);
     }
 
-//    @Test
-//    public void testGetByTodoId() {
-//        // Arrange
-//        when(todoService.getById("123")).thenReturn(todo1);
-//
-//        // Act
-//        TodoResponseDTO result = todoController.getByTodoId("123").getBody();
-//
-//        // Assert
-//        assertNotNull(result);
-//        assertEquals(dto1.getId(), result.getId());
-//    }
-//
-//    @Test
-//    public void testGetByTodoTitle() {
-//        // Arrange
-//        when(todoService.getByTitle("Test Todo 1")).thenReturn(List.of(todo1));
-//
-//        // Act
-//        List<TodoResponseDTO> result = todoController.getByTodoTitle("Test Todo 1").getBody();
-//
-//        // Assert
-//        assertNotNull(result);
-//        assertEquals(1, result.size());
-//        assertEquals(dto1, result.get(0));
-//    }
-
     @Test
     public void testCreateTodo() {
         // Arrange
