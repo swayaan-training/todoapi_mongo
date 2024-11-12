@@ -1,0 +1,715 @@
+[
+    {
+        "account_number": "ACC1001",
+        "transaction_type": "Deposit",
+        "amount": 5000.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-01T10:45:00Z",
+        "customer": {
+            "customer_id": "CUST1001",
+            "name": "John Doe",
+            "address": "123 Main St, Anytown, USA",
+            "email": "johndoe@example.com",
+            "phone": "+1-555-1234"
+        }
+    },
+    {
+        "account_number": "ACC1002",
+        "transaction_type": "Withdrawal",
+        "amount": 200.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-02T12:30:00Z",
+        "customer": {
+            "customer_id": "CUST1002",
+            "name": "Jane Smith",
+            "address": "456 Oak St, Anytown, USA",
+            "email": "janesmith@example.com",
+            "phone": "+1-555-5678"
+        }
+    },
+    {
+        "account_number": "ACC1003",
+        "transaction_type": "Transfer",
+        "amount": 1500.00,
+        "currency": "EUR",
+        "transaction_date": "2024-08-03T14:20:00Z",
+        "customer": {
+            "customer_id": "CUST1003",
+            "name": "Robert Johnson",
+            "address": "789 Pine St, Anytown, USA",
+            "email": "robertjohnson@example.com",
+            "phone": "+1-555-9876"
+        },
+        "recipient_account": "ACC1004"
+    },
+    {
+        "account_number": "ACC1004",
+        "transaction_type": "Deposit",
+        "amount": 2500.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-04T09:15:00Z",
+        "customer": {
+            "customer_id": "CUST1004",
+            "name": "Emily Davis",
+            "address": "321 Maple St, Anytown, USA",
+            "email": "emilydavis@example.com",
+            "phone": "+1-555-6543"
+        }
+    },
+    {
+        "account_number": "ACC1005",
+        "transaction_type": "Withdrawal",
+        "amount": 300.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-05T16:05:00Z",
+        "customer": {
+            "customer_id": "CUST1005",
+            "name": "Michael Brown",
+            "address": "654 Elm St, Anytown, USA",
+            "email": "michaelbrown@example.com",
+            "phone": "+1-555-4321"
+        }
+    },
+    {
+        "account_number": "ACC1006",
+        "transaction_type": "Deposit",
+        "amount": 1000.00,
+        "currency": "GBP",
+        "transaction_date": "2024-08-06T11:30:00Z",
+        "customer": {
+            "customer_id": "CUST1006",
+            "name": "Olivia Wilson",
+            "address": "876 Birch St, Anytown, USA",
+            "email": "oliviawilson@example.com",
+            "phone": "+1-555-7890"
+        }
+    },
+    {
+        "account_number": "ACC1007",
+        "transaction_type": "Transfer",
+        "amount": 800.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-07T08:45:00Z",
+        "customer": {
+            "customer_id": "CUST1007",
+            "name": "William Taylor",
+            "address": "654 Cedar St, Anytown, USA",
+            "email": "williamtaylor@example.com",
+            "phone": "+1-555-6789"
+        },
+        "recipient_account": "ACC1008"
+    },
+    {
+        "account_number": "ACC1008",
+        "transaction_type": "Deposit",
+        "amount": 7500.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-08T13:20:00Z",
+        "customer": {
+            "customer_id": "CUST1008",
+            "name": "Sophia Martinez",
+            "address": "123 Walnut St, Anytown, USA",
+            "email": "sophiamartinez@example.com",
+            "phone": "+1-555-2468"
+        }
+    },
+    {
+        "account_number": "ACC1009",
+        "transaction_type": "Withdrawal",
+        "amount": 600.00,
+        "currency": "EUR",
+        "transaction_date": "2024-08-09T10:30:00Z",
+        "customer": {
+            "customer_id": "CUST1009",
+            "name": "James Anderson",
+            "address": "456 Spruce St, Anytown, USA",
+            "email": "jamesanderson@example.com",
+            "phone": "+1-555-1357"
+        }
+    },
+    {
+        "account_number": "ACC1010",
+        "transaction_type": "Transfer",
+        "amount": 1200.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-10T15:45:00Z",
+        "customer": {
+            "customer_id": "CUST1010",
+            "name": "Isabella Thomas",
+            "address": "789 Ash St, Anytown, USA",
+            "email": "isabellathomas@example.com",
+            "phone": "+1-555-9753"
+        },
+        "recipient_account": "ACC1011"
+    },
+    {
+        "account_number": "ACC1011",
+        "transaction_type": "Deposit",
+        "amount": 3300.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-11T09:25:00Z",
+        "customer": {
+            "customer_id": "CUST1011",
+            "name": "Benjamin Lee",
+            "address": "321 Fir St, Anytown, USA",
+            "email": "benjaminlee@example.com",
+            "phone": "+1-555-8642"
+        }
+    },
+    {
+        "account_number": "ACC1012",
+        "transaction_type": "Withdrawal",
+        "amount": 700.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-12T14:35:00Z",
+        "customer": {
+            "customer_id": "CUST1012",
+            "name": "Charlotte Harris",
+            "address": "654 Poplar St, Anytown, USA",
+            "email": "charlotteharris@example.com",
+            "phone": "+1-555-7531"
+        }
+    },
+    {
+        "account_number": "ACC1013",
+        "transaction_type": "Deposit",
+        "amount": 4000.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-13T12:15:00Z",
+        "customer": {
+            "customer_id": "CUST1013",
+            "name": "Mia Clark",
+            "address": "876 Hickory St, Anytown, USA",
+            "email": "miaclark@example.com",
+            "phone": "+1-555-1597"
+        }
+    },
+    {
+        "account_number": "ACC1014",
+        "transaction_type": "Transfer",
+        "amount": 900.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-14T11:55:00Z",
+        "customer": {
+            "customer_id": "CUST1014",
+            "name": "Elijah Walker",
+            "address": "123 Pinecone St, Anytown, USA",
+            "email": "elijahwalker@example.com",
+            "phone": "+1-555-8524"
+        },
+        "recipient_account": "ACC1015"
+    },
+    {
+        "account_number": "ACC1015",
+        "transaction_type": "Deposit",
+        "amount": 2500.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-15T08:30:00Z",
+        "customer": {
+            "customer_id": "CUST1015",
+            "name": "Amelia Hall",
+            "address": "456 Cone St, Anytown, USA",
+            "email": "ameliahall@example.com",
+            "phone": "+1-555-7689"
+        }
+    },
+    {
+        "account_number": "ACC1016",
+        "transaction_type": "Withdrawal",
+        "amount": 300.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-16T16:45:00Z",
+        "customer": {
+            "customer_id": "CUST1016",
+            "name": "Lucas Allen",
+            "address": "789 Needle St, Anytown, USA",
+            "email": "lucasallen@example.com",
+            "phone": "+1-555-3456"
+        }
+    },
+    {
+        "account_number": "ACC1017",
+        "transaction_type": "Deposit",
+        "amount": 1500.00,
+        "currency": "JPY",
+        "transaction_date": "2024-08-17T13:30:00Z",
+        "customer": {
+            "customer_id": "CUST1017",
+            "name": "Harper Scott",
+            "address": "321 Oakwood St, Anytown, USA",
+            "email": "harperscott@example.com",
+            "phone": "+1-555-9870"
+        }
+    },
+    {
+        "account_number": "ACC1018",
+        "transaction_type": "Transfer",
+        "amount": 2000.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-18T10:25:00Z",
+        "customer": {
+            "customer_id": "CUST1018",
+            "name": "Ethan Young",
+            "address": "654 Elmwood St, Anytown, USA",
+            "email": "ethanyoung@example.com",
+            "phone": "+1-555-6542"
+        },
+        "recipient_account": "ACC1019"
+    },
+    {
+        "account_number": "ACC1019",
+        "transaction_type": "Deposit",
+        "amount": 5000.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-19T14:00:00Z",
+        "customer": {
+            "customer_id": "CUST1019",
+            "name": "Avery King",
+            "address": "789 Maplewood St, Anytown, USA",
+            "email": "averyking@example.com",
+            "phone": "+1-555-7410"
+        }
+    },
+    {
+        "account_number": "ACC1020",
+        "transaction_type": "Withdrawal",
+        "amount": 400.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-20T11:15:00Z",
+        "customer": {
+            "customer_id": "CUST1020",
+            "name": "Mason Wright",
+            "address": "123 Pine St, Anytown, USA",
+            "email": "masonwright@example.com",
+            "phone": "+1-555-9631"
+        }
+    },
+    {
+        "account_number": "ACC1021",
+        "transaction_type": "Deposit",
+        "amount": 2200.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-21T09:45:00Z",
+        "customer": {
+            "customer_id": "CUST1021",
+            "name": "Ella Green",
+            "address": "456 Willow St, Anytown, USA",
+            "email": "ellagreen@example.com",
+            "phone": "+1-555-8523"
+        }
+    },
+    {
+        "account_number": "ACC1022",
+        "transaction_type": "Transfer",
+        "amount": 1300.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-22T12:00:00Z",
+        "customer": {
+            "customer_id": "CUST1022",
+            "name": "Logan Adams",
+            "address": "789 Birchwood St, Anytown, USA",
+            "email": "loganadams@example.com",
+            "phone": "+1-555-6780"
+        },
+        "recipient_account": "ACC1023"
+    },
+    {
+        "account_number": "ACC1023",
+        "transaction_type": "Deposit",
+        "amount": 3500.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-23T10:30:00Z",
+        "customer": {
+            "customer_id": "CUST1023",
+            "name": "Zoe Baker",
+            "address": "123 Cedar St, Anytown, USA",
+            "email": "zoebaker@example.com",
+            "phone": "+1-555-7891"
+        }
+    },
+    {
+        "account_number": "ACC1024",
+        "transaction_type": "Withdrawal",
+        "amount": 250.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-24T14:20:00Z",
+        "customer": {
+            "customer_id": "CUST1024",
+            "name": "Jack Nelson",
+            "address": "456 Pinewood St, Anytown, USA",
+            "email": "jacknelson@example.com",
+            "phone": "+1-555-3210"
+        }
+    },
+    {
+        "account_number": "ACC1025",
+        "transaction_type": "Deposit",
+        "amount": 1900.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-25T15:15:00Z",
+        "customer": {
+            "customer_id": "CUST1025",
+            "name": "Chloe Carter",
+            "address": "789 Oakwood St, Anytown, USA",
+            "email": "chloecarter@example.com",
+            "phone": "+1-555-6541"
+        }
+    },
+    {
+        "account_number": "ACC1026",
+        "transaction_type": "Transfer",
+        "amount": 800.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-26T11:50:00Z",
+        "customer": {
+            "customer_id": "CUST1026",
+            "name": "Daniel Martinez",
+            "address": "321 Firwood St, Anytown, USA",
+            "email": "danielmartinez@example.com",
+            "phone": "+1-555-9721"
+        },
+        "recipient_account": "ACC1027"
+    },
+    {
+        "account_number": "ACC1027",
+        "transaction_type": "Deposit",
+        "amount": 3000.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-27T10:05:00Z",
+        "customer": {
+            "customer_id": "CUST1027",
+            "name": "Aiden Young",
+            "address": "654 Maplewood St, Anytown, USA",
+            "email": "aidenyoung@example.com",
+            "phone": "+1-555-8643"
+        }
+    },
+    {
+        "account_number": "ACC1028",
+        "transaction_type": "Withdrawal",
+        "amount": 500.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-28T12:25:00Z",
+        "customer": {
+            "customer_id": "CUST1028",
+            "name": "Ella Moore",
+            "address": "789 Willow St, Anytown, USA",
+            "email": "ellamoore@example.com",
+            "phone": "+1-555-9512"
+        }
+    },
+    {
+        "account_number": "ACC1029",
+        "transaction_type": "Deposit",
+        "amount": 1700.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-29T14:35:00Z",
+        "customer": {
+            "customer_id": "CUST1029",
+            "name": "Mia Wilson",
+            "address": "123 Cedarwood St, Anytown, USA",
+            "email": "miawilson@example.com",
+            "phone": "+1-555-8529"
+        }
+    },
+    {
+        "account_number": "ACC1030",
+        "transaction_type": "Transfer",
+        "amount": 2200.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-30T11:00:00Z",
+        "customer": {
+            "customer_id": "CUST1030",
+            "name": "Liam Lee",
+            "address": "456 Oak St, Anytown, USA",
+            "email": "liamlee@example.com",
+            "phone": "+1-555-7539"
+        },
+        "recipient_account": "ACC1031"
+    },
+    {
+        "account_number": "ACC1031",
+        "transaction_type": "Deposit",
+        "amount": 4000.00,
+        "currency": "USD",
+        "transaction_date": "2024-08-31T09:55:00Z",
+        "customer": {
+            "customer_id": "CUST1031",
+            "name": "Harper Evans",
+            "address": "789 Pinewood St, Anytown, USA",
+            "email": "harperevans@example.com",
+            "phone": "+1-555-7419"
+        }
+    },
+    {
+        "account_number": "ACC1032",
+        "transaction_type": "Withdrawal",
+        "amount": 350.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-01T13:30:00Z",
+        "customer": {
+            "customer_id": "CUST1032",
+            "name": "Sophia Turner",
+            "address": "123 Birch St, Anytown, USA",
+            "email": "sophiaturner@example.com",
+            "phone": "+1-555-8526"
+        }
+    },
+    {
+        "account_number": "ACC1033",
+        "transaction_type": "Deposit",
+        "amount": 2500.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-02T15:45:00Z",
+        "customer": {
+            "customer_id": "CUST1033",
+            "name": "James Thompson",
+            "address": "456 Maplewood St, Anytown, USA",
+            "email": "jamesthompson@example.com",
+            "phone": "+1-555-1479"
+        }
+    },
+    {
+        "account_number": "ACC1034",
+        "transaction_type": "Transfer",
+        "amount": 1000.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-03T11:15:00Z",
+        "customer": {
+            "customer_id": "CUST1034",
+            "name": "Mia White",
+            "address": "789 Willow St, Anytown, USA",
+            "email": "miawhite@example.com",
+            "phone": "+1-555-8641"
+        },
+        "recipient_account": "ACC1035"
+    },
+    {
+        "account_number": "ACC1035",
+        "transaction_type": "Deposit",
+        "amount": 4500.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-04T08:25:00Z",
+        "customer": {
+            "customer_id": "CUST1035",
+            "name": "Liam Harris",
+            "address": "123 Pine St, Anytown, USA",
+            "email": "liamharris@example.com",
+            "phone": "+1-555-9516"
+        }
+    },
+    {
+        "account_number": "ACC1036",
+        "transaction_type": "Withdrawal",
+        "amount": 600.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-05T14:00:00Z",
+        "customer": {
+            "customer_id": "CUST1036",
+            "name": "Olivia Robinson",
+            "address": "456 Fir St, Anytown, USA",
+            "email": "oliviarobinson@example.com",
+            "phone": "+1-555-7536"
+        }
+    },
+    {
+        "account_number": "ACC1037",
+        "transaction_type": "Deposit",
+        "amount": 2200.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-06T10:15:00Z",
+        "customer": {
+            "customer_id": "CUST1037",
+            "name": "Ethan Martinez",
+            "address": "789 Cedar St, Anytown, USA",
+            "email": "ethanmartinez@example.com",
+            "phone": "+1-555-9517"
+        }
+    },
+    {
+        "account_number": "ACC1038",
+        "transaction_type": "Transfer",
+        "amount": 750.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-07T13:45:00Z",
+        "customer": {
+            "customer_id": "CUST1038",
+            "name": "Chloe Anderson",
+            "address": "321 Oak St, Anytown, USA",
+            "email": "chloeanderson@example.com",
+            "phone": "+1-555-7415"
+        },
+        "recipient_account": "ACC1039"
+    },
+    {
+        "account_number": "ACC1039",
+        "transaction_type": "Deposit",
+        "amount": 1200.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-08T11:30:00Z",
+        "customer": {
+            "customer_id": "CUST1039",
+            "name": "Daniel Walker",
+            "address": "654 Maplewood St, Anytown, USA",
+            "email": "danielwalker@example.com",
+            "phone": "+1-555-7537"
+        }
+    },
+    {
+        "account_number": "ACC1040",
+        "transaction_type": "Withdrawal",
+        "amount": 350.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-09T15:10:00Z",
+        "customer": {
+            "customer_id": "CUST1040",
+            "name": "Amelia White",
+            "address": "789 Birchwood St, Anytown, USA",
+            "email": "ameliawhite@example.com",
+            "phone": "+1-555-8528"
+        }
+    },
+    {
+        "account_number": "ACC1041",
+        "transaction_type": "Deposit",
+        "amount": 3000.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-10T10:50:00Z",
+        "customer": {
+            "customer_id": "CUST1041",
+            "name": "Mason Harris",
+            "address": "123 Oakwood St, Anytown, USA",
+            "email": "masonharris@example.com",
+            "phone": "+1-555-9518"
+        }
+    },
+    {
+        "account_number": "ACC1042",
+        "transaction_type": "Transfer",
+        "amount": 2000.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-11T12:20:00Z",
+        "customer": {
+            "customer_id": "CUST1042",
+            "name": "Zoe Robinson",
+            "address": "456 Willow St, Anytown, USA",
+            "email": "zoerobinson@example.com",
+            "phone": "+1-555-8527"
+        },
+        "recipient_account": "ACC1043"
+    },
+    {
+        "account_number": "ACC1043",
+        "transaction_type": "Deposit",
+        "amount": 1500.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-12T11:00:00Z",
+        "customer": {
+            "customer_id": "CUST1043",
+            "name": "Eli King",
+            "address": "789 Cedarwood St, Anytown, USA",
+            "email": "eliking@example.com",
+            "phone": "+1-555-9632"
+        }
+    },
+    {
+        "account_number": "ACC1044",
+        "transaction_type": "Withdrawal",
+        "amount": 250.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-13T14:15:00Z",
+        "customer": {
+            "customer_id": "CUST1044",
+            "name": "Avery Smith",
+            "address": "321 Birchwood St, Anytown, USA",
+            "email": "averysmith@example.com",
+            "phone": "+1-555-7416"
+        }
+    },
+    {
+        "account_number": "ACC1045",
+        "transaction_type": "Deposit",
+        "amount": 1800.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-14T09:50:00Z",
+        "customer": {
+            "customer_id": "CUST1045",
+            "name": "Jack Taylor",
+            "address": "654 Pinewood St, Anytown, USA",
+            "email": "jacktaylor@example.com",
+            "phone": "+1-555-9519"
+        }
+    },
+    {
+        "account_number": "ACC1046",
+        "transaction_type": "Transfer",
+        "amount": 1200.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-15T13:05:00Z",
+        "customer": {
+            "customer_id": "CUST1046",
+            "name": "Chloe Wilson",
+            "address": "789 Pinewood St, Anytown, USA",
+            "email": "chloewilson@example.com",
+            "phone": "+1-555-7538"
+        },
+        "recipient_account": "ACC1047"
+    },
+    {
+        "account_number": "ACC1047",
+        "transaction_type": "Deposit",
+        "amount": 3300.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-16T10:40:00Z",
+        "customer": {
+            "customer_id": "CUST1047",
+            "name": "Liam Martinez",
+            "address": "321 Firwood St, Anytown, USA",
+            "email": "liammartinez@example.com",
+            "phone": "+1-555-8529"
+        }
+    },
+    {
+        "account_number": "ACC1048",
+        "transaction_type": "Withdrawal",
+        "amount": 600.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-17T12:10:00Z",
+        "customer": {
+            "customer_id": "CUST1048",
+            "name": "Sophia Harris",
+            "address": "456 Oakwood St, Anytown, USA",
+            "email": "sophiaharris@example.com",
+            "phone": "+1-555-7417"
+        }
+    },
+    {
+        "account_number": "ACC1049",
+        "transaction_type": "Deposit",
+        "amount": 2200.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-18T14:35:00Z",
+        "customer": {
+            "customer_id": "CUST1049",
+            "name": "Mason Lewis",
+            "address": "789 Oakwood St, Anytown, USA",
+            "email": "masonlewis@example.com",
+            "phone": "+1-555-9510"
+        }
+    },
+    {
+        "account_number": "ACC1050",
+        "transaction_type": "Transfer",
+        "amount": 2500.00,
+        "currency": "USD",
+        "transaction_date": "2024-09-19T10:25:00Z",
+        "customer": {
+            "customer_id": "CUST1050",
+            "name": "Avery King",
+            "address": "123 Pinewood St, Anytown, USA",
+            "email": "averyking@example.com",
+            "phone": "+1-555-7418"
+        },
+        "recipient_account": "ACC1051"
+    }
+]
